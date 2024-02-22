@@ -42,7 +42,7 @@ function Home() {
           position: "relative"
         }}
       >
-        <Button variant="contained" onClick={handleOpenForm} sx={{ textTransform: "none", position: "absolute", top: "20px", right: "17px", color:"white", backgroundColor:"black", "&:hover": {backgroundColor:"black"}}}>Add Task</Button>
+        <Button variant="contained" onClick={handleOpenForm} sx={{ textTransform: "none", position: "absolute", top: "20px", right: "17px", color:"white", backgroundColor:"black", "&:hover": {backgroundColor:"black"}}}>Add Project</Button>
 
         <Dialog
   open={openForm}
